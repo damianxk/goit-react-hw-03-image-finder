@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { fetchImages } from './APIpixabay/APIpixabay';
+import { fetchImages } from '../API/API';
 import { Searchbar } from './SearchBar/SearchBar';
 import { ImageGallery } from './ImageGallery/ImageGallery';
 import { Button } from './Button/Button';
