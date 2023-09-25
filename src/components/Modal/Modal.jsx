@@ -23,7 +23,7 @@ export class Modal extends Component {
     return (
       <div className={css.wrapper} onClick={this.closeModal}>
         <div className={css.modal_window}>
-          <img src={src} alt={alt} width="800" height="600" />
+          <img src={src} alt={alt} className={css.modalImage} />
         </div>
       </div>
     );
